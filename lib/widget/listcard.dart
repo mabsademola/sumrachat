@@ -150,11 +150,14 @@ class MessageStatusDot extends StatelessWidget {
       switch (status) {
         case Read.notread:
           return Container(
-            margin: EdgeInsets.only(left: kDefaultPadding / 2),
-            height: 18,
-            width: 18,
+            margin: EdgeInsets.only(left: 10),
+            height: 16,
+            width: 16,
             decoration: BoxDecoration(
-              color: AppColors.greyColor,
+              border: Border.all(
+                color: AppColors.blueColor,
+                width: 1.0,
+              ),
               shape: BoxShape.circle,
             ),
           );

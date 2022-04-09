@@ -81,7 +81,10 @@ class _ExploreScreenState extends State<ExploreScreen> {
             ),
             Padding(
               padding: const EdgeInsets.only(
-                  bottom: 70, left: 8, right: 16, top: 50),
+                bottom: 30,
+                left: 15,
+                right: 16,
+              ),
               child: Text(
                 "RECENTLY ACTIVE",
                 style: TextStyle(fontSize: 15.51, fontWeight: FontWeight.w500),
