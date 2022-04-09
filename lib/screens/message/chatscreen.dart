@@ -89,6 +89,7 @@ class ChatScreenState extends State<ChatScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
+        leadingWidth: 30,
         elevation: 3,
         centerTitle: false,
         leading: InkWell(
